@@ -107,14 +107,14 @@
 .total{
   background-color: #5b5c60;
   background: #ececec;
-  width: 1190px;          /* 固定宽度 */
+  width: 1190px;  
   margin: auto;
   color: #5b5c60;
-  padding: 0px;
+  padding: 30px;
 
   .img{
     width: 1190px;
-    height: 428px;
+    height: 380px;
   }
    
 
@@ -143,4 +143,127 @@
   }
 }
 
+.MyTown{
+  background-color: #5b5c60;
+  background: #ececec;
+  width: 1190px;          /* 固定宽度 */
+  margin: auto;
+  color: #5b5c60;
 
+  .img{
+    width: 1190px;
+    height: 428px;
+  }
+
+  .title{
+    font-size: 18px;
+    .circle-text{
+      height: 30px;
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    .title-message{
+      width: 80px;
+      margin-left: 10px;
+    }
+
+    .black-circle{
+      width: 15px;
+      height: 15px; 
+      background-color: black; 
+      border-radius: 50%;
+      margin-left: 20px;
+    }
+    .dotted-line{
+      border: 1px dashed #000;
+    }
+
+    .title-search{
+      width: 300px;
+      margin-left: 700px; 
+      display:flex;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 10px 8px 10px rgb(112, 111, 111);
+     
+    }
+
+    .search-box{
+      width: 250px; 
+      height: 40px;
+      font-size: 16px; 
+      border-radius: 12px 0 0 12px; 
+      border: 3px solid #f0882d;
+    }
+
+    .search-submit{
+      width: 50px;
+      font-size: 15px; 
+      background-color: #f0882d ; 
+      color: white; 
+      border: none; 
+      border-radius: 0 10px 10px 0;  
+      cursor: pointer;
+    }
+  }
+
+  .text{
+    font-size: 14px; 
+    color: #5b5c60;
+    line-height: 30px;
+    margin-left: 20px;
+  }
+
+  .pictures{
+    justify-content: space-between;
+    display: flex;
+
+    .responsive{
+      margin: 10px;
+      width: 280px;
+    }
+
+    .picture{
+      height: 160px;
+      width: 260px;
+    }
+    .text-bold{
+      font-weight: bold;
+      margin-top: 8px;
+    }
+
+    .text-normal{
+      margin-top: 15px;
+    }
+  }
+
+  .buttons{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+
+    button{
+      display: flex;
+      border: none;
+      height: 30px;
+      margin: 8px;
+      padding: 10px;
+      align-items: center;
+      cursor: pointer;
+    }
+    .button-gray{
+      background-color: #dddddd
+      ;
+    }
+
+    .button-other{
+      background-color: #fefefe; 
+    }
+
+    .button-blue{
+      background-color: #0099ff;
+    }
+  }
+}
