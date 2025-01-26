@@ -19,12 +19,12 @@ const handleClick = (component) => {
     <div className="total">
       <img className="img" src="images/01.jpg" alt="示例图片"/>
       <div className="topnav">
-        <button className="Fistpage" onClick={handleClick("Fistpage")}>网站首页</button>
-        <button className="Process" onClick={handleClick("Process")}>成长历程</button>
-        <button className="Town" onClick={handleClick("Town")}>我的家乡 </button>
-        <button className="School" onClick={handleClick("School")}>我的学校</button>
-        <button className="Food"onClick={handleClick("Food")}>喜欢美食</button>
-        <button className="Message" onClick={handleClick("Message")}>给我留言</button>
+        <button className={activeComponent === "Fistpage" ? "change-color" : ""} onClick={handleClick("Fistpage")}>网站首页</button>
+        <button className={activeComponent === "Process" ? "change-color" : ""} onClick={handleClick("Process")}>成长历程</button>
+        <button className={activeComponent === "Town" ? "change-color" : ""} onClick={handleClick("Town")}>我的家乡 </button>
+        <button className={activeComponent === "School" ? "change-color" : ""} onClick={handleClick("School")}>我的学校</button>
+        <button className={activeComponent === "Food" ? "change-color" : ""} onClick={handleClick("Food")}>喜欢美食</button>
+        <button className={activeComponent === "Message" ? "change-color" : ""} onClick={handleClick("Message")}>给我留言</button>
       </div>
       
       {activeComponent === "Process"  ? <MyProcess/>: null}
