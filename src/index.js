@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import '../src/css/style.css';
+// import './index.css';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import MyMessage from '../src/components/myMessage';
+// import MyTown from '../src/components/myTown';
+import Total from '../src/components/total';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Total/>
   </React.StrictMode>
 );
 
