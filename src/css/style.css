@@ -297,33 +297,51 @@
     }
   }
 
-  .custom-table {
+  .custom-table-background {
+    background-color: white;
     width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
+    padding: 10px 0px;
   }
-  
+
+  .custom-table {
+    width: 1070px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color: #5b5c60;
+    margin: auto;
+  }
+
+  .custom-table input {
+      border: none;
+      outline: none; /* 还可以去掉点击时的蓝色外边框 */
+      width: 152px;
+    }
+
   .custom-table th,
   .custom-table td {
-    border: 1px solid #ccc;
+    border: 1px solid #b7b4b4;
     text-align: center;
-    border-right: 0px;
-    /* padding: 10px; */
   }
   
   .custom-table thead th {
     background-color: #e8f4fa;
     font-weight: bold;
-    width: 159px;
-    border: 1px solid #ccc;
+    border: 1px solid #b7b4b4;
   }
   
   .custom-table tbody th {
     background-color: #f0f8ff;
+    border: 1px solid #b7b4b4;
+    font-weight: bold;
   }
-  .col-1{
-    width: 158px;
+
+
+  .col-2{
+    width: 152px;
+    background-color: #e8e9eb;
+
+    input {
+     background-color: #e8e9eb;
+    }
   }
 }
